@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:SequenceDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="siteParissequence" size="1425,1547" metadata="uml2-1.0" initialized="true" scrolledY="885" tag="1000" key="32303037303533312D31303030205369746550617269732F75736572">
+  <children xsi:type="editmodel:InstanceEditModel" name="SiteDeParisMetier" location="270,20" size="236,1507" id="siteParis/SiteDeParisMetier" itemName="siteDeParisMetier">
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.0/@sourceConnections.0" location="110,168" size="16,40" sequenceItemContainer="//@children.0"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.1/@sourceConnections.0" location="110,240" size="16,111" sequenceItemContainer="//@children.0" recursiveChildren="//@children.0/@children.2" length="111">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="Joueur" id="siteParis/Joueur#Joueur" source="//@children.0/@children.1" target="//@children.4/@children.0" targetEnd="//@children.0/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="Joueur(,,)" associatedSequenceNumber="2.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="8,21" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="111,13" labelValue="Create Joueur object"/>
+          <children xsi:type="editmodel:LabelEditModel" name="Joueur(,,)" size="49,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="2.1" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" source="//@children.0/@children.1" target="//@children.0/@children.2" targetEnd="//@children.0/@children.1/@sourceConnections.1/@children.1" sourceEnd="//@children.0/@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" associatedMethod="" associatedSequenceNumber="2.2">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="11,61" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="94,13" labelValue="Add joueur in List"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="2.2" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.1/@sourceConnections.1" location="118,311" size="16,40" sequenceItemContainer="//@children.0" associatedActivation="//@children.0/@children.1" relativeLocation="8,52"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.2/@sourceConnections.0" location="110,394" size="16,55" sequenceItemContainer="//@children.0" length="55">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="setRestantJeton" id="siteParis/Joueur#setRestantJeton(J)" source="//@children.0/@children.3" target="//@children.4/@children.1" targetEnd="//@children.0/@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="setRestantJeton(long)" associatedSequenceNumber="3.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="12,15" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="148,13" labelValue="Set initial Amount to joueur"/>
+          <children xsi:type="editmodel:LabelEditModel" name="setRestantJeton(long)" size="119,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="3.1" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.3/@sourceConnections.0" location="110,507" size="16,97" sequenceItemContainer="//@children.0" recursiveChildren="//@children.0/@children.5" length="97">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="Competition" id="siteParis/Competition#Competition" source="//@children.0/@children.4" target="//@children.2/@children.0" targetEnd="//@children.0/@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="Competition(,DateFrancaise,)" associatedSequenceNumber="4.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="8,7" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.4/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.4/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.4/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.4/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="145,13" labelValue="Create a New Competition "/>
+          <children xsi:type="editmodel:LabelEditModel" name="Competition(,DateFrancaise,)" size="158,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="4.1" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.4/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.4/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.4/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.4/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" source="//@children.0/@children.4" target="//@children.0/@children.5" targetEnd="//@children.0/@children.4/@sourceConnections.1/@children.1" sourceEnd="//@children.0/@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" associatedMethod="" associatedSequenceNumber="4.2">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="6,47" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.4/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.0/@children.4/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.4/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.0/@children.4/@sourceConnections.1/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="167,13" labelValue="Add the Competition in the List"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="4.2" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.4/@sourceConnections.1" location="118,564" size="16,40" sequenceItemContainer="//@children.0" associatedActivation="//@children.0/@children.4" relativeLocation="8,43"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.4/@sourceConnections.0" location="110,615" size="16,40" sequenceItemContainer="//@children.0"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.5/@sourceConnections.0" location="110,666" size="16,40" sequenceItemContainer="//@children.0"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.6/@sourceConnections.0" location="110,716" size="16,165" sequenceItemContainer="//@children.0" length="165">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="placebet" id="siteParis/Joueur#placebet" source="//@children.0/@children.8" target="//@children.4/@children.2" targetEnd="//@children.0/@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="placebet(,long,)" associatedSequenceNumber="7.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="7,0" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.8/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.8/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.8/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.8/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="87,13" labelValue="To place the bet"/>
+          <children xsi:type="editmodel:LabelEditModel" name="placebet(,long,)" size="86,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="7.1" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.8/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.8/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.8/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.8/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="competitorMoney" id="siteParis/Competition#competitorMoney" source="//@children.0/@children.8" target="//@children.2/@children.1" targetEnd="//@children.0/@children.8/@sourceConnections.1/@children.1" sourceEnd="//@children.0/@children.8/@sourceConnections.1/@children.0" connectionRouterKind="Manual" associatedMethod="competitorMoney(,long)" associatedSequenceNumber="7.2">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="8,125" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.8/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.0/@children.8/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.8/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.0/@children.8/@sourceConnections.1/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="229,13" labelValue="Set the Competitior Amount in Competiton"/>
+          <children xsi:type="editmodel:LabelEditModel" name="competitorMoney(,long)" size="130,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="7.2" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.8/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.0/@children.8/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.8/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.0/@children.8/@sourceConnections.1/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.7/@sourceConnections.0" location="110,891" size="16,317" sequenceItemContainer="//@children.0" recursiveChildren="//@children.0/@children.10" length="317">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="solderCompetion" id="siteParis/Competition#solderCompetion" source="//@children.0/@children.9" target="//@children.2/@children.2" targetEnd="//@children.0/@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="solderCompetion()" associatedSequenceNumber="8.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="7,2" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.9/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="206,13" labelValue="To the Close the Competition frolm list"/>
+          <children xsi:type="editmodel:LabelEditModel" name="solderCompetion()" size="101,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="8.1" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.9/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" source="//@children.0/@children.9" target="//@children.0/@children.10" targetEnd="//@children.0/@children.9/@sourceConnections.1/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" associatedMethod="" associatedSequenceNumber="8.2">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="8,67" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.9/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.1/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="239,13" labelValue="Remove the competition from the Compt list"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="8.2" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.9/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.1/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="calcTotalComptAmount" id="siteParis/Competition#calcTotalComptAmount()" source="//@children.0/@children.9" target="//@children.2/@children.3" targetEnd="//@children.0/@children.9/@sourceConnections.2/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.2/@children.0" connectionRouterKind="Manual" associatedMethod="calcTotalComptAmount()" associatedSequenceNumber="8.3">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="2,127" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.9/@sourceConnections.2/@children.0/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.2/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.2/@children.0/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.2/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="230,13" labelValue="Calc totam amount beeted on competition"/>
+          <children xsi:type="editmodel:LabelEditModel" name="calcTotalComptAmount()" size="133,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="8.3" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.9/@sourceConnections.2/@children.1/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.2/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.2/@children.1/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.2/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="setWinningAmount" id="siteParis/Joueur#setWinningAmount(J)" source="//@children.0/@children.9" target="//@children.4/@children.4" targetEnd="//@children.0/@children.9/@sourceConnections.3/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.3/@children.0" connectionRouterKind="Manual" associatedMethod="setWinningAmount(long)" associatedSequenceNumber="8.4">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="8,177" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.9/@sourceConnections.3/@children.0/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.3/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.3/@children.0/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.3/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="200,13" labelValue="Calculate winning amount for winner"/>
+          <children xsi:type="editmodel:LabelEditModel" name="setWinningAmount(long)" size="136,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="8.4" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.9/@sourceConnections.3/@children.1/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.3/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.3/@children.1/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.3/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="resetCompAmount" id="siteParis/Competition#resetCompAmount()" source="//@children.0/@children.9" target="//@children.2/@children.4" targetEnd="//@children.0/@children.9/@sourceConnections.4/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.4/@children.0" connectionRouterKind="Manual" associatedMethod="resetCompAmount()" associatedSequenceNumber="8.5">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="11,227" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.9/@sourceConnections.4/@children.0/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.4/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.4/@children.0/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.4/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="191,13" labelValue="reset the Competition total Amount"/>
+          <children xsi:type="editmodel:LabelEditModel" name="resetCompAmount()" size="109,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="8.5" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.9/@sourceConnections.4/@children.1/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.4/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.4/@children.1/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.4/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="updateEngageJeton" id="siteParis/Joueur#updateEngageJeton(J)" source="//@children.0/@children.9" target="//@children.4/@children.5" targetEnd="//@children.0/@children.9/@sourceConnections.5/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.5/@children.0" connectionRouterKind="Manual" associatedMethod="updateEngageJeton(long)" associatedSequenceNumber="8.6">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="10,277" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.9/@sourceConnections.5/@children.0/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.5/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.5/@children.0/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.5/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="147,13" labelValue="update the betting amount"/>
+          <children xsi:type="editmodel:LabelEditModel" name="updateEngageJeton(long)" size="141,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="8.6" size="17,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.9/@sourceConnections.5/@children.1/@children.0" methodLabel="//@children.0/@children.9/@sourceConnections.5/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.9/@sourceConnections.5/@children.1/@children.2" statementExpression="//@children.0/@children.9/@sourceConnections.5/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.9/@sourceConnections.1" location="118,968" size="16,40" sequenceItemContainer="//@children.0" associatedActivation="//@children.0/@children.9" relativeLocation="8,49"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.8/@sourceConnections.0" location="110,1218" size="16,40" sequenceItemContainer="//@children.0"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.9/@sourceConnections.0" location="110,1268" size="16,40" sequenceItemContainer="//@children.0">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="setEngagesJeton" id="siteParis/Joueur#setEngagesJeton(J)" source="//@children.0/@children.12" target="//@children.4/@children.6" targetEnd="//@children.0/@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.12/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="setEngagesJeton(long)" associatedSequenceNumber="10.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="9,0" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.12/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.12/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.12/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.12/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="205,13" labelValue="debit the amount from joueur amount"/>
+          <children xsi:type="editmodel:LabelEditModel" name="setEngagesJeton(long)" size="125,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="10.1" size="24,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.12/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.12/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.12/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.12/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.1/@children.10/@sourceConnections.0" location="110,1340" size="16,57" sequenceItemContainer="//@children.0" recursiveChildren="//@children.0/@children.14" length="57">
+      <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" source="//@children.0/@children.13" target="//@children.0/@children.14" targetEnd="//@children.0/@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.13/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" associatedMethod="" associatedSequenceNumber="11.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="5,7" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.13/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.13/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.13/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.13/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="179,13" labelValue="delete the joueur from joueur list"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="11.1" size="24,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.13/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.13/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.13/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.13/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.13/@sourceConnections.0" location="118,1357" size="16,40" sequenceItemContainer="//@children.0" associatedActivation="//@children.0/@children.13" relativeLocation="8,17"/>
+  </children>
+  <children xsi:type="editmodel:ActorEditModel" location="89,20" size="100,1507" itemName="Personne">
+    <children xsi:type="editmodel:ActivationEditModel" location="42,168" size="16,40" sequenceItemContainer="//@children.1">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="debiterJoueur" id="siteParis/SiteDeParisMetier#debiterJoueur" source="//@children.1/@children.0" target="//@children.0/@children.0" targetEnd="//@children.1/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="validitePasswordGestionnaire()" associatedSequenceNumber="1">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="121,13" labelValue="Validate the password"/>
+          <children xsi:type="editmodel:LabelEditModel" name="validitePasswordGestionnaire()" size="170,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="1" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,240" size="16,111" sequenceItemContainer="//@children.1" length="111">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="inscrireJoueur" source="//@children.1/@children.1" target="//@children.0/@children.1" targetEnd="//@children.1/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="inscrireJoueur()" associatedSequenceNumber="2">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.1/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.1/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.1/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.1/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="78,13" labelValue="RegisterPlayer"/>
+          <children xsi:type="editmodel:LabelEditModel" name="inscrireJoueur()" size="83,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="2" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.1/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.1/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.1/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.1/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,394" size="16,63" sequenceItemContainer="//@children.1" length="63">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="ajouterCompetition" id="siteParis/SiteDeParisMetier#ajouterCompetition" source="//@children.1/@children.2" target="//@children.0/@children.3" targetEnd="//@children.1/@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="crediterJoueur(,,,long,)" associatedSequenceNumber="3">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.2/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.2/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.2/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.2/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="129,13" labelValue="Credit Amount to joueur"/>
+          <children xsi:type="editmodel:LabelEditModel" name="crediterJoueur(,,,long,)" size="121,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="3" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.2/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.2/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.2/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.2/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,507" size="16,97" sequenceItemContainer="//@children.1" length="97">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="miserVainqueur" id="siteParis/SiteDeParisMetier#miserVainqueur" source="//@children.1/@children.3" target="//@children.0/@children.4" targetEnd="//@children.1/@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="ajouterCompetition(,DateFrancaise,,)" associatedSequenceNumber="4">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.3/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.3/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.3/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.3/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="111,13" labelValue="Add the Competition"/>
+          <children xsi:type="editmodel:LabelEditModel" name="ajouterCompetition(,DateFrancaise,,)" size="200,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="4" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.3/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.3/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.3/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.3/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,615" size="16,40" sequenceItemContainer="//@children.1">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="consulterCompetitions" id="siteParis/SiteDeParisMetier#consulterCompetitions()" source="//@children.1/@children.4" target="//@children.0/@children.6" targetEnd="//@children.1/@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="consulterCompetitions()" associatedSequenceNumber="5">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.4/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.4/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.4/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.4/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="142,13" labelValue="Get the List of Competiton"/>
+          <children xsi:type="editmodel:LabelEditModel" name="consulterCompetitions()" size="131,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="5" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.4/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.4/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.4/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.4/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,666" size="16,40" sequenceItemContainer="//@children.1">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="desinscrireJoueur" id="siteParis/SiteDeParisMetier#desinscrireJoueur" source="//@children.1/@children.5" target="//@children.0/@children.7" targetEnd="//@children.1/@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="consulterCompetiteurs()" associatedSequenceNumber="6">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.5/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.5/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.5/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.5/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="235,13" labelValue="get the list of the Competitor of competiton"/>
+          <children xsi:type="editmodel:LabelEditModel" name="consulterCompetiteurs()" size="132,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="6" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.5/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.5/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.5/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.5/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,716" size="16,165" sequenceItemContainer="//@children.1" length="165">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="crediterJoueur" id="siteParis/SiteDeParisMetier#crediterJoueur" source="//@children.1/@children.6" target="//@children.0/@children.8" targetEnd="//@children.1/@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="miserVainqueur(,,long,,)" associatedSequenceNumber="7">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.6/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.6/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.6/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.6/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="146,13" labelValue="Place the Bet by the Joueur"/>
+          <children xsi:type="editmodel:LabelEditModel" name="miserVainqueur(,,long,,)" size="129,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="7" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.6/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.6/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.6/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.6/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,891" size="16,317" sequenceItemContainer="//@children.1" length="317">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="validitePasswordGestionnaire" id="siteParis/SiteDeParisMetier#validitePasswordGestionnaire" source="//@children.1/@children.7" target="//@children.0/@children.9" targetEnd="//@children.1/@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="solderVainqueur(,,)" associatedSequenceNumber="8">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.7/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.7/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.7/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.7/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="134,13" labelValue="To close the Competition"/>
+          <children xsi:type="editmodel:LabelEditModel" name="solderVainqueur(,,)" size="103,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="8" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.7/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.7/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.7/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.7/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,1218" size="16,40" sequenceItemContainer="//@children.1">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="consulterJoueurs" id="siteParis/SiteDeParisMetier#consulterJoueurs" source="//@children.1/@children.8" target="//@children.0/@children.11" targetEnd="//@children.1/@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="consulterJoueurs()" associatedSequenceNumber="9">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.8/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.8/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.8/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.8/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="110,13" labelValue="get the list of joueur"/>
+          <children xsi:type="editmodel:LabelEditModel" name="consulterJoueurs()" size="100,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="9" size="7,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.8/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.8/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.8/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.8/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,1268" size="16,40" sequenceItemContainer="//@children.1">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="consulterCompetiteurs" id="siteParis/SiteDeParisMetier#consulterCompetiteurs" source="//@children.1/@children.9" target="//@children.0/@children.12" targetEnd="//@children.1/@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="debiterJoueur(,,,long,)" associatedSequenceNumber="10">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.9/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.9/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.9/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.9/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="161,13" labelValue="Debit the amount from joueur"/>
+          <children xsi:type="editmodel:LabelEditModel" name="debiterJoueur(,,,long,)" size="118,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="10" size="14,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.9/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.9/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.9/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.9/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:ActivationEditModel" location="42,1340" size="16,57" sequenceItemContainer="//@children.1" length="57">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="solderVainqueur" id="siteParis/SiteDeParisMetier#solderVainqueur" source="//@children.1/@children.10" target="//@children.0/@children.13" targetEnd="//@children.1/@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="desinscrireJoueur(,,,): long" associatedSequenceNumber="11">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.10/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.10/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.10/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.10/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="115,13" labelValue="unregister the joueur"/>
+          <children xsi:type="editmodel:LabelEditModel" name="desinscrireJoueur(,,,): long" size="143,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="11" size="14,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.10/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.10/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.10/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.10/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+  </children>
+  <children xsi:type="editmodel:InstanceEditModel" name="Competition" location="540,20" size="182,1507" id="siteParis/Competition" itemName="Competition">
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.4/@sourceConnections.0" location="83,514" size="16,40" sequenceItemContainer="//@children.2"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.8/@sourceConnections.1" location="83,841" size="16,40" sequenceItemContainer="//@children.2"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.9/@sourceConnections.0" location="83,893" size="16,65" sequenceItemContainer="//@children.2" length="65"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.9/@sourceConnections.2" location="83,1018" size="16,40" sequenceItemContainer="//@children.2"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.9/@sourceConnections.4" location="83,1118" size="16,40" sequenceItemContainer="//@children.2"/>
+  </children>
+  <children xsi:type="editmodel:InstanceEditModel" name="Betting" location="930,20" size="128,1507" id="siteParis/Betting" itemName="Betting">
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.4/@children.2/@sourceConnections.0" location="56,716" size="16,40" sequenceItemContainer="//@children.3"/>
+  </children>
+  <children xsi:type="editmodel:InstanceEditModel" name="Joueur" location="765,20" size="120,1507" id="siteParis/Joueur" itemName="Joueur">
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@sourceConnections.0" location="52,261" size="16,40" sequenceItemContainer="//@children.4"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.3/@sourceConnections.0" location="52,409" size="16,40" sequenceItemContainer="//@children.4"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.8/@sourceConnections.0" location="52,716" size="16,103" sequenceItemContainer="//@children.4" recursiveChildren="//@children.4/@children.3" length="103">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="Betting" id="siteParis/Betting#Betting" source="//@children.4/@children.2" target="//@children.3/@children.0" targetEnd="//@children.4/@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="Betting(,long,)" associatedSequenceNumber="7.1.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="13,0" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.4/@children.2/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.4/@children.2/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.4/@children.2/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.4/@children.2/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="204,13" labelValue="place bet by Comp,Comptiteur,money"/>
+          <children xsi:type="editmodel:LabelEditModel" name="Betting(,long,)" size="77,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="7.1.1" size="27,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.4/@children.2/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.4/@children.2/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.4/@children.2/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.4/@children.2/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" source="//@children.4/@children.2" target="//@children.4/@children.3" targetEnd="//@children.4/@children.2/@sourceConnections.1/@children.1" sourceEnd="//@children.4/@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" associatedMethod="" associatedSequenceNumber="7.1.2">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="6,53" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.4/@children.2/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.4/@children.2/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.4/@children.2/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.4/@children.2/@sourceConnections.1/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="137,13" labelValue="add betting in betting list"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" name="7.1.2" size="27,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" anchorKind="FixedAtEdge" userLabel="//@children.4/@children.2/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.4/@children.2/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.4/@children.2/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.4/@children.2/@sourceConnections.1/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,13"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,13"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.4/@children.2/@sourceConnections.1" location="60,779" size="16,40" sequenceItemContainer="//@children.4" associatedActivation="//@children.4/@children.2" relativeLocation="8,30"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.9/@sourceConnections.3" location="52,1068" size="16,40" sequenceItemContainer="//@children.4"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.9/@sourceConnections.5" location="52,1168" size="16,40" sequenceItemContainer="//@children.4"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.12/@sourceConnections.0" location="52,1268" size="16,40" sequenceItemContainer="//@children.4"/>
+  </children>
+  <diagramOptions xsi:type="options:SequenceDiagramOptions" level="0" properties="Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <sequenceDiagramPreferences showPopupBars="true" showConnectionHandles="true"/>
+</editmodel:SequenceDiagramEditModel>
